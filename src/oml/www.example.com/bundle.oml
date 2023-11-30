@@ -1,0 +1,6 @@
+description bundle <http://www.example.com/bundle#> as ^bundle {
+
+	uses <http://www.ccsds.org/schema/sois/seds#>
+
+	includes <http://www.example.com/example1#>
+}

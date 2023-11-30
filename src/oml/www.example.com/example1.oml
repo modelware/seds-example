@@ -1,0 +1,18 @@
+description <http://www.example.com/example1#> as example1 {
+
+	uses <http://www.ccsds.org/schema/sois/seds#> as seds
+
+	instance Datasheet : seds:DataSheetType [
+		seds:DataSheetType_device SimpleDevice
+		seds:DataSheetType_package SimpleDemo
+	]
+	
+	instance SimpleDevice : seds:DeviceType [
+		seds:NamedEntityType_name "SimpleDevice"
+	]
+	
+	instance SimpleDemo : seds:PackageType [
+		seds:PackageType_name "SimpleDemo"
+	]
+	 	
+}

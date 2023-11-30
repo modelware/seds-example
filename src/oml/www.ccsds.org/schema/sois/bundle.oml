@@ -1,0 +1,4 @@
+vocabulary bundle <http://www.ccsds.org/schema/sois//bundle#> as ^bundle {
+	
+	includes <http://www.ccsds.org/schema/sois/seds#>
+}
